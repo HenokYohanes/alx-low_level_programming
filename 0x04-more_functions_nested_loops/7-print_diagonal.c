@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line on the terminal.
- * @n: input number
- * Return: diagonal line
+ * print_diagonal - draws a diagonal line of backslashes on the terminal
+ * @n: the number of backslashes to print
  */
 
 void print_diagonal(int n)
@@ -13,19 +12,16 @@ void print_diagonal(int n)
 	if (n <= 0)
 	{
 	_putchar('\n');
+	return;
 	}
 
-	else
+	for (i = 0; i < n; i++)
 	{
-
-	for (i = 1; i <= n; i++)
-	{
-	for (j = 1; j < 1; j++)
+	for (j = 0; j < i; j++)
 	{
 	_putchar(' ');
 	}
 	_putchar('\\');
 	_putchar('\n');
-	}
 	}
 }
