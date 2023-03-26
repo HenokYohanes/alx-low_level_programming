@@ -1,1 +1,1 @@
-0x09. C - Static libraries readme file
+0x09. C - Static libraries project tasks
