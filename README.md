@@ -32,4 +32,10 @@ low level programming project repositories
 
 0x0E. C - Structures, typedef
 
-0x0F. C - Function pointers 
+0x0F. C - Function pointers
+
+0x11. C - printf
+
+0x12. C - Singly linked lists
+
+0x13. C - More singly linked lists
